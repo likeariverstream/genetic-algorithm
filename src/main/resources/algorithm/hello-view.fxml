@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="TOP_CENTER"
+      fx:controller="algorithm.HelloController">
+    <VBox>
+    <padding>
+        <Insets/>
+    </padding>
+        <MenuBar fx:id="menuBar">
+            <Menu fx:id="menu" text="О программе">
+                <MenuItem text="О разработчике" fx:id="menuItem1" onAction="#onMenuItem1Click"/>
+                <MenuItem text="Справка" fx:id="menuItem2" onAction="#onMenuItem2Click"/>
+            </Menu>
+        </MenuBar>
+        <Label fx:id="welcomeText"/>
+    </VBox>
+    <VBox>
+        <Button text="Запустить цикл" onAction="#onHelloButtonClick"/>
+    </VBox>
+</VBox>

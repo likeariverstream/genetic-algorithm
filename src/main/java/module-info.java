@@ -8,6 +8,6 @@ module com.example.geneticalgorithm {
     requires org.kordamp.bootstrapfx.core;
     requires com.almasb.fxgl.all;
 
-    opens com.example.geneticalgorithm to javafx.fxml;
-    exports com.example.geneticalgorithm;
+    opens algorithm to javafx.fxml;
+    exports algorithm;
 }
