@@ -11,9 +11,9 @@
 <VBox xmlns:fx="http://javafx.com/fxml" alignment="TOP_CENTER"
       fx:controller="algorithm.HelloController">
     <VBox>
-    <padding>
-        <Insets/>
-    </padding>
+        <padding>
+            <Insets/>
+        </padding>
         <MenuBar fx:id="menuBar">
             <Menu fx:id="menu" text="О программе">
                 <MenuItem text="О разработчике" fx:id="menuItem1" onAction="#onMenuItem1Click"/>
